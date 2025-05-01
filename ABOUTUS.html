@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .card {
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 40px;
+    }
+
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .about-text {
+      flex: 1 1 50%;
+    }
+
+    .about-text h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .about-text p {
+      font-size: 1.05em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .about-point {
+      margin-bottom: 25px;
+    }
+
+    .about-point strong {
+      display: block;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .about-image {
+      flex: 1 1 40%;
+      text-align: center;
+    }
+
+    .about-image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+      }
+
+      .about-image img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="about-section">
+      <div class="about-text">
+        <h1>About us</h1>
+        <p>Welcome to my portfolio! I am a passionate software developer with expertise in creating innovative solutions.</p>
+        
+        <div class="about-point">
+          <strong>Innovation</strong>
+          <p>I specialize in crafting cutting-edge applications that prioritize user experience and functionality.</p>
+        </div>
+
+        <div class="about-point">
+          <strong>Customer-Centric</strong>
+          <p>My commitment lies in delivering exceptional results tailored to meet client needs and expectations.</p>
+        </div>
+
+        <div class="about-point">
+          <strong>Expertise</strong>
+          <p>With years of experience and a deep understanding of industry trends, I bring a wealth of knowledge to every project.</p>
+        </div>
+
+        <div class="about-point">
+          <strong>Integrity</strong>
+          <p>Transparency, honesty, and dedication are the core values driving my work.</p>
+        </div>
+      </div>
+
+      <div class="about-image">
+        <img src="./jonah.jpg" alt="Team working together" />
+        <!-- Replace 'team.jpg' with your actual image file -->
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
